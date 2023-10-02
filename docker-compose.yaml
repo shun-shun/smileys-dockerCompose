@@ -7,6 +7,6 @@ services:
       context: "./backend"
       dockerfile: "Dockerfile"
     ports:
-      - 8000:8000
+      - 8000:80
     volumes:
       - ./backend/api:/src
